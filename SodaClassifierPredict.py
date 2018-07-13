@@ -1,3 +1,6 @@
+# This is the saved model which I trained using convolution neural networks in the other .py file
+# We can now simply load that model
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.models import model_from_json,model_from_yaml
