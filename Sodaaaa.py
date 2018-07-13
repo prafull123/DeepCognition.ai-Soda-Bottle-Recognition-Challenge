@@ -50,7 +50,7 @@ classifier.add(Dense(units = 8, activation = 'sigmoid'))
 # Compiling the CNN
 classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
 
-# Part 2 - Fitting the CNN to the images
+# Part 2 - IMAGE AUGMENTATION and FITTING THE CNN on images
 
 from keras.preprocessing.image import ImageDataGenerator
 
